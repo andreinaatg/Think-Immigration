@@ -1,0 +1,183 @@
+html body{
+    background-color: #262626
+}
+.parallax {
+    /* The image used */
+    background-image: url("https://files.slack.com/files-pri/TLA2HKWKZ-FM0TM45HQ/hrryth.png");
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 100px;
+    min-height: 650px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+h1{
+    font-size: 36px;
+    color: #ca3645;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+}
+h2{
+    color: #ca3645;
+    font-family: 'Karla', sans-serif;
+    font-size: 28px;
+}
+p{
+    color: #dcdcdc;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    text-align: right;
+    padding-left: 30px;
+}
+#P1{
+  color: #dcdcdc;
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  padding-right: 30PX;
+}
+hr{
+    color: #dcdcdc;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top:60px;
+  }
+#wrap{
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 20px;
+}
+#p22{
+  color: #dcdcdc;
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+.btn {
+  font-family: 'Karla', sans-serif;
+  border: none; /* Remove borders */
+  color: #ca3645; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  margin-left: 400px;
+  margin-right: 220px;
+  margin-top: 100px;
+  opacity:4;
+  transition:5s
+}
+.learnmore{background-color: #262626;} /* Green */
+.learnmore:hover {background-color: #f5f5f5;}
+.butn{
+  font-family: 'Karla', sans-serif;
+  border: none; /* Remove borders */
+  color: #ca3645; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  margin-left: 400px;
+  margin-right: 220px;
+  margin-top: 100px;
+  opacity:5;
+  transition:3s
+}
+.learnmore2{background-color: #262626;} /* Green */
+.learnmore2:hover {background-color: #f5f5f5;}
+.parallax2 {
+    /* The image used */
+    background-image: url("https://files.slack.com/files-pri/TLA2HKWKZ-FM0TL7SHG/why_is_it_important.png");
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+    margin-top: -36px;
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+#wrap2{
+  margin-right: 200px;
+  margin-left: 200px;
+  padding: 20px;
+}
+#p3{
+  color: #dcdcdc;
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  padding-right: 30PX;
+}
+.btn3{
+  font-family: 'Karla', sans-serif;
+  border: none; /* Remove borders */
+  color: #ca3645; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  margin-left: 400px;
+  margin-right: 220px;
+  margin-top: 100px;
+  opacity:5;
+  transition:3s
+}
+.learnmore3{background-color: #262626;} /* Green */
+.learnmore3:hover {background-color: #f5f5f5;}
+
+
+
+
+/* The side navigation menu */
+.sidenav {
+
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 0; /* Stay on top */
+  top: 2; /* Stay at the top */
+  left: 1;
+  background-color: white; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

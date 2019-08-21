@@ -1,0 +1,167 @@
+body{
+font-family: 'Lato', sans-serif;
+
+
+}
+
+
+
+h1{
+ text-align: center;
+ background-color: #CA3645;
+ color: #ffffff;
+ font-size: 30px;
+ font-family: 'Lato', sans-serif;
+ padding-top:25px;
+ padding-bottom: 25px;
+ font-weight: 400;
+ margin: 0;
+ font-size: 35px;
+}
+.image-cropper {
+ width: 234px;
+ height: 238px;
+ position: relative;
+ overflow: hidden;
+ border-radius: 50%;
+}
+img {
+ display:inline;
+ margin: 0 auto;
+ height: auto;
+ width: auto;
+}
+.container {
+ position: relative;
+ width: 50%;
+ align-items:center;
+}
+.overlay {
+ position:absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ height: 100%;
+ width: 100%;
+ transition: .5s ease;
+ background-color: #3f3f3f;
+}
+.container:hover .overlay {
+ opacity: 0.8;
+}
+.text {
+ color: white;
+ font-size: 20px;
+ font-family: 'Lato', sans-serif;
+ weight: 200;
+ position: absolute;
+ top: 50%;
+ left: 60%;
+ -webkit-transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+ text-align: center;
+ align-items: baseline;
+}
+.column {
+ float: left;
+ width: 26.00%;
+ padding: 50px;
+}
+.row::after{
+ content: "";
+ display: table;
+ clear: both;
+}
+#h2{
+ font-family: 'Lato', sans-serif;
+ text-align: center;
+ background-color: lightgrey;
+ color:#ffffff;
+ font-weight:lighter;
+ font-size: 30px;
+ padding: 20px;
+}
+#immigration{
+ margin:0;
+ width:1400px;
+ text-align: center;
+ margin:0;
+}
+.parallax {
+ /* The image used */
+ background-image: url("https://files.slack.com/files-pri/TLA2HKWKZ-FMBSJHZD2/pic6.jpg");
+ /* Set a specific height */
+ min-height: 500px;
+ /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+#text{
+ color:white;
+ font-size: 25px;
+ margin:0;
+ font-family: 'Lato', sans-serif;
+ padding: 10px;
+ font-weight: lighter;
+ text-align: center;
+}
+
+
+
+
+/* The side navigation menu */
+.sidenav {
+
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 0; /* Stay on top */
+  top: 2; /* Stay at the top */
+  left: 1;
+  background-color: white; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
